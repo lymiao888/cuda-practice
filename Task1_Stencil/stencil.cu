@@ -7,8 +7,8 @@
 #include <chrono>
 #include "helper_cuda.h"
 
-#define M 32
-#define N 32
+#define M 131072
+#define N 4096
 void init_float(float (*arr)[N], int m) {
     for(int i = 0; i < m; i++){
         for(int j = 0; j < N; j++){
