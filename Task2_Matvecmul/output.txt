@@ -1,0 +1,6 @@
+>>> cpu_mat_times_vec: 2027.41ms
+>>> gpu_mat_times_vec_row: 1.23305ms
+correct!
+>>> cpu_mat_times_vec: 9980.99ms
+>>> gpu_mat_times_vec_col: 0.171023ms
+correct!
