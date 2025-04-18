@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.12)
+project(reduce LANGUAGES CXX CUDA)
+add_executable(reduce reduce.cu)
+set_target_properties(reduce PROPERTIES CUDA_ARCHITECTURES "89")
+target_include_directories(reduce PUBLIC ./include)
