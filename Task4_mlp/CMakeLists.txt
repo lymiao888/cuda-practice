@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.12)
+project(mlp LANGUAGES CXX CUDA)
+add_executable(mlp mlp.cu)
+set_target_properties(mlp PROPERTIES CUDA_ARCHITECTURES "89")
+target_include_directories(mlp PUBLIC ./include)
